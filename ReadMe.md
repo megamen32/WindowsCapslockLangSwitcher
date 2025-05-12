@@ -24,14 +24,13 @@ A lightweight Windows tray application that turns your Caps Lock key into a powe
    ```bash
    pip install pystray pynput pillow win10toast keyboard pywin32
    ```
-4. (Optional) Rename `main.py` to `capslock_toggle.pyw` to hide the console window.
 
 ## Usage
 
 1. Run the script:
 
    ```bash
-   python capslock_toggle.pyw
+   python main.pyw
    ```
 2. A tray icon labeled **CL** will appear near your clock.
 3. Right-click the icon to access the menu:
